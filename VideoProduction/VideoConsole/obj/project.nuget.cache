@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "dWKA+J+0FFy+tqPszDfHoY6vn8q745ZdcV+9XEDmMCC31zlrKlvTQWX0WS6cgXLjZ7JxuRdlnB8X87kRxBRYcQ==",
+  "success": true,
+  "projectFilePath": "E:\\code\\VideoProduction\\VideoConsole\\VideoConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yangrili\\.nuget\\packages\\ffmpeg.autogen\\4.3.0.2\\ffmpeg.autogen.4.3.0.2.nupkg.sha512",
+    "C:\\Users\\yangrili\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\yangrili\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\yangrili\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\yangrili\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\yangrili\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\yangrili\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\yangrili\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\yangrili\\.nuget\\packages\\opencvsharp4\\4.4.0.20200915\\opencvsharp4.4.4.0.20200915.nupkg.sha512",
+    "C:\\Users\\yangrili\\.nuget\\packages\\opencvsharp4.runtime.win\\4.4.0.20200915\\opencvsharp4.runtime.win.4.4.0.20200915.nupkg.sha512",
+    "C:\\Users\\yangrili\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\yangrili\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\yangrili\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
