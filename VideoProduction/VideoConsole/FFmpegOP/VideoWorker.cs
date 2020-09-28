@@ -102,6 +102,10 @@ namespace VideoConsole.FFmpegOP
                         Console.WriteLine($"is key frame : {isKeyFrame}");
                         if (isKeyFrame)
                         {
+                            //Console.WriteLine($"frame.pts: { frame.pkt_pts * ffmpeg.av_d2q(1,ffmpeg.AV_TIME_BASE).den}");
+                            Console.WriteLine($"frame.pkt_pts: {frame.pkt_duration }");
+                            Console.WriteLine($"frame.pkt_pts: {frame.pkt_pts }");
+                            Console.WriteLine($"frame.pkt_pts: {frame.best_effort_timestamp}");
                             var convertedFrame = vfc.Convert(frame);
                             using (var bitmap = new Bitmap(convertedFrame.width, convertedFrame.height, convertedFrame.linesize[0], PixelFormat.Format24bppRgb, (IntPtr)convertedFrame.data[0]))
                                 bitmap.Save($"{filePath}frame-{frameNumber:D1}.jpeg", ImageFormat.Jpeg);

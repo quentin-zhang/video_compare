@@ -71,7 +71,7 @@ namespace VideoConsole.FFmpegOP
                     do
                     {
                         error = ffmpeg.av_read_frame(_pFormatContext, _pPacket);
-                        if (_pPacket->flags != 0)
+                        if ((_pPacket->flags & ffmpeg.AV_PKT_FLAG_KEY) != 0)
                         {
                             isKeyFrame = true;
                         }

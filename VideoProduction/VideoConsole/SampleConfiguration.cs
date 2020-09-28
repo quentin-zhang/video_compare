@@ -11,6 +11,6 @@ namespace VideoConsole
         public const string SOURCE_KEY_FRAME_PATH = @"E:\keyframe1\";
         public const string CUT_KEY_FRAME_PATH = @"E:\keyframe2\";
         public const string FILENAMEHEAD = "frame-";
-        public const string FILENAMENUMBER = "00000001";
+        public const string FILENAMENUMBER = "116";
     }
 }
